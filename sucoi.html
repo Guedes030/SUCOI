@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sucoi</title>
+    <style>
+      body {
+        margin-top: 30px;
+        background-color: #1f3b59;
+        text-align: center;
+      }
+      section {
+        display: inline-block;
+        text-align: center;
+      }
+      #img {
+        width: 4rem;
+        margin-bottom: 1px;
+      }
+      #img,
+      #ipc {
+        display: inline-block;
+      }
+
+      #ini > h2 {
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+      }
+      #div2 > h2 {
+        margin-bottom: 40px;
+        margin-top: 50px;
+        font-family: sans-serif;
+        color: #fff;
+        font-weight: 300;
+        text-align: center;
+        font-size: large;
+      }
+      #cpf,
+      #senha {
+        border-radius: 4px;
+        border: 1 px solid black;
+        width: 30vw;
+        height: 40px;
+      }
+      #acess {
+        cursor: pointer;
+        font-family: sans-serif;
+        color: #fff;
+        height: 50px;
+        width: 30vw;
+        background-color: #05c436;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      footer {
+        padding: 15px;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        color: rgb(241, 241, 241);
+        color: transparent whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <head>
+      <section>
+        <div style="display: inline-block" id="ini">
+          <img src="imagens/gladio.png" alt="img da fab" id="img" />
+          <h2 id="ipc">SUCOI CCAER - ÁREA DO CADETE</h2>
+        </div>
+        <div id="div2">
+          <h2>Bem-Vindo,faça o login para acessar o sistema.</h2>
+          <form action="sucoi2.html" method="get">
+            <input type="text" id="cpf" name="cpf" placeholder="CPF" required />
+            <br />
+            <br />
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Senha"
+              required
+            />
+            <br /><br /><br />
+            <button type="submit" id="acess">Acessar</button>
+          </form>
+        </div>
+      </section>
+    </head>
+    <main></main>
+    <footer>
+      <p>&copy;Força Aérea Brasileira</p>
+      <p>Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
